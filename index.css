@@ -1,0 +1,180 @@
+.one{height: 90px;
+    width: 90px;
+   
+    border: 2px solid blue;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.firstline{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.num{
+    position: absolute;
+    top: 170px;
+    margin-right: 500px;
+}
+.a{
+    background: red;
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.b{
+    background: chartreuse;
+    animation-name: b;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.c{
+    background: cyan;
+    animation-name: c;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.d{
+    background: darkgreen;
+   
+   
+}
+.e{
+    animation-name: e;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.f{animation-name: f;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.g{
+    animation-name: g;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes c {
+    30%{
+        transform: rotate(60deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes a {50%{
+    transform: skewX(45deg);
+}100%{
+    transform: skewY(45deg);
+}
+    
+}
+@keyframes b {
+    100%{
+        transform: skewX(15deg);
+    }
+    
+}
+@keyframes e {
+    50%{
+        transform: scaleX(2);
+    }
+}
+@keyframes f {
+    50%{
+        transform: scaleY(2);
+    }
+}
+@keyframes g {
+    100%{
+        transform: rotate(90deg);
+    }
+}
+.try{
+    font-size: 40px;
+    text-align: center;
+    color: blueviolet;
+}
+.let{
+    font-size: 40px;
+    margin-left: 40%;
+    margin-top: 20%;
+    
+    color: indigo;
+}
+.two
+    {height: 90px;
+        width: 90px;
+       
+        border: 2px solid blue;
+        
+        margin-top: 100px;
+        background: green;
+      
+        text-align: center;
+    }
+    .abc
+    { 
+         transition : width 5s;}
+    .abc:hover{
+        width: 300px;
+    }
+    .abd{
+        transition: height 5s,width 5s;
+    }
+    .abd:hover{
+        height: 300px;
+        width: 300px;
+    }
+    .abe{
+        transition-timing-function: linear;
+        transition: width 5s;
+    }
+    .abe:hover{
+        width: 300px;
+    }
+    .abf{
+        transition: width 5s;
+        transition-timing-function: ease 3s;
+    }
+    .abf:hover{
+        width: 300px;
+    }
+    .abg{
+        transition:   width 5s;
+        transition-timing-function: ease-in 5s;
+    }
+    .abg:hover{
+        width: 300px;
+    }
+    .abh{
+        transition-timing-function: ease-out 5s;
+        transition: width 5s;
+    }
+    .abh:hover{
+        width: 300px;
+    }
+    .abi{
+        transition: width 5s;
+        transition-timing-function: ease-in-out 3s;
+    }
+    .abi:hover{
+        width: 300px;
+    }
+    
+        
+    
+    .nem{
+        position: relative;
+        margin-left: 600px;
+    
+       
+
+    }
+    .center{
+      
+    }
+    
+
+
